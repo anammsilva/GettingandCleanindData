@@ -16,7 +16,7 @@ The file run_analysis.R has the instuctions to answer the following questions:
 #Program
 We start with importing files about Human Activity Recognition Using Smartphones Data Set:
 
-1. We import activity labels, which import six categories' names: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS SITTING, STANDING,LAYING.
+1. We import activity labels, which import six categories' names: walking, walking_upstairs, walking_downstairs, sitting, standing, laying. 
 
 2. After that, we import the features, which has length 561.
 
