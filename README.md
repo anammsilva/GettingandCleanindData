@@ -11,7 +11,7 @@ The file run_analysis.R has the instuctions to answer the following questions:
 
 4.Appropriately labels the data set with descriptive variable names. 
 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 We start with importing files about Human Activity Recognition Using Smartphones Data Set:
 
@@ -21,8 +21,8 @@ We start with importing files about Human Activity Recognition Using Smartphones
 
 3.Then, we import the test sets related to each categorie: "xtest" realated to features, and "ytest" related to activity labels, and, finaly, about the subject test, which indicates the id of the subject. After this, we merge the three of them.
 
-4. We do the same thing to the train data.
+4.We do the same thing to the train data.
 
-5. Finally, we merge the two of them, obtaining a matrix with 10299rows * 82columns
+5.Finally, we merge the two of them, obtaining a matrix with 10299rows * 82columns
 
 For answering the questions, we used the packages "data.table" and "reshape2" )
